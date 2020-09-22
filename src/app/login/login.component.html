@@ -1,0 +1,30 @@
+<div class="login-container">
+    <div class="login-form">
+        <div class="row justify-content-start">
+            <h3>Login to add and access notes!</h3>
+            <br>
+            <div class="col-4">
+                <label>Username:
+                    <input class="username" matInput [formControl]='username'>
+                </label>
+            </div>
+        </div>
+        <br>
+        <div class="row justify-content-start">
+            <div class="col-4">
+                <label>Password:
+                    <input class="password" matInput type='password' [formControl]='password'>
+                </label>
+            </div>
+        </div>
+        <br>
+        <div class="row justify-content-center">
+            <div class="col-4">
+                <button class="btn btn-primary" (click)="loginSubmit()">Submit</button>
+            </div>
+        </div>
+    </div>
+</div>
+<div style="text-align:center">
+    <label class="error-message">{{ submitMessage }}</label>
+</div>

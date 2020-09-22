@@ -1,0 +1,29 @@
+{
+  "notes": [
+    {
+      "id": 1,
+      "title": "Read Angular5 blog",
+      "text": "Shall do at 6 pm"
+    },
+    {
+      "id": 2,
+      "title": "Call Ravi",
+      "text": "Track the new submissions"
+    },
+    {
+      "title": "Capitalism",
+      "text": "Mark Twain",
+      "id": 3
+    },
+    {
+      "title": "Call Anjali",
+      "text": "Ask her about exam",
+      "id": 4
+    },
+    {
+      "title": "Java Assignment",
+      "text": "Do at 5 pm",
+      "id": 5
+    }
+  ]
+}
